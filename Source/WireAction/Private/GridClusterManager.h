@@ -4,7 +4,10 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "ScoringRing.h"
 #include "GridClusterManager.generated.h"
+
+class AGridCluster;
 
 UCLASS()
 class AGridClusterManager : public AActor {
